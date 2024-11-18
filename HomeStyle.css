@@ -1,0 +1,522 @@
+*{
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+
+.gray_text{
+    color: rgb(112, 112, 112);
+}
+
+.blue_text{
+    color: rgb(61, 130, 242);
+}
+
+.blue_button{
+    background-color: rgb(48, 110, 247);
+    border-radius: 8px;
+    color: white;
+    padding: 12px 20px;
+}
+
+.big_blue_button{
+    background-color: rgb(48, 110, 247);
+    border-radius: 18px;
+    color: white;
+    padding: 23px 74px;
+}
+
+.big_black_button{
+    background-color: black;
+    border-radius: 8px;
+    color: rgb(112, 112, 112);
+    padding: 24px 89px;
+    border: 1px solid rgb(112, 112, 112);
+}
+
+header{
+    width: 1640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+}
+
+header div:only-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+header nav{
+    display: flex;
+    gap: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_heading{
+    text-align: center;
+    padding-top: 128px;
+}
+
+.main_heading h1{
+    font-weight: 700;
+    font-size: 112px;
+}
+
+.main_heading h2{
+    font-weight: 700;
+    font-size: 112px;
+    background-image: linear-gradient(90deg,rgb(254, 103, 131), rgb(255, 191, 132));
+    background-clip: text;
+    color: transparent;
+}
+
+.button h3{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+
+.button{
+    padding-top: 136px;
+}
+
+.button > div:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.button > div:last-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding-top: 21px;
+}   
+
+.button .white_text{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.button .gray_text{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.why_creators_love_marico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 188px;
+    gap: 64px;
+}
+
+.why_creators_love_marico > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 107px;
+}
+
+.why_creators_love_marico > div >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.why_creators_love_marico > div >div >div:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.why_creators_love_marico h3{
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.why_creators_love_marico >div >div >div:first-of-type h3{
+    font-weight: 600;
+    font-size: 35px; 
+}
+
+.why_creators_love_marico >div >div >div:last-of-type h3{
+    font-weight: 400;
+    font-size: 22px; 
+    color: rgb(112, 112, 112);
+}
+
+.step1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 162px;
+}
+
+.step1 .text1{
+    color: rgb(61, 130, 242);
+    font-weight: 600;
+    font-size: 25px; 
+}
+
+.step1 .text2{
+    font-weight: 600;
+    font-size: 75px; 
+}
+
+.step1 .text3{
+    color: rgb(112, 112, 112); 
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 34px;
+    text-align: center;
+}
+
+.step1 .big_black_button{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 24px 38px;
+}
+
+.your_homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 182px;
+    gap: 228px;
+}
+
+.your_homepage > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.your_homepage > div > div > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.your_homepage > div > h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.your_homepage > div > div > h3{
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.your_homepage > div > div > div h3:first-of-type{
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.your_homepage > div > div > div h3:last-of-type{
+    font-weight: 600;
+    font-size: 75px;
+    color: rgb(60, 130, 244);
+}
+
+.your_homepage ol li:first-of-type{
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.your_homepage ol li:last-of-type{
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.your_homepage > div > div:last-of-type{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.your_homepage .big_blue_button{
+    padding: 18px 21px;
+}
+
+.your_homepage .big_black_button{
+    padding: 18px 38px;
+    background-color: rgb(14, 14, 14);
+}
+
+.step2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 162px;
+}
+
+.step2 .text1{
+    color: rgb(61, 130, 242);
+    font-weight: 600;
+    font-size: 25px; 
+}
+
+.step2 .text2{
+    font-weight: 600;
+    font-size: 75px; 
+}
+
+.step2 .text3{
+    color: rgb(112, 112, 112); 
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 34px; 
+    text-align: center;
+}
+
+.one_link_collects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 176px;
+    gap: 49px;
+}
+
+.one_link_collects .big_blue_button{
+    padding: 22px 87px;
+}
+
+.step3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 189px;
+}
+
+.step3 .text1{
+    color: rgb(61, 130, 242);
+    font-weight: 600;
+    font-size: 25px; 
+}
+
+.step3 .text2{
+    font-weight: 600;
+    font-size: 75px; 
+}
+
+.step3 .text3{
+    color: rgb(112, 112, 112); 
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 34px; 
+    text-align: center;
+}
+
+.create_share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 182px;
+    gap: 189px;
+}
+
+.create_share > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.create_share > div > div > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.create_share > div > h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.create_share > div > div > h3{
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.create_share > div > div > div h3:first-of-type{
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.create_share > div > div > div h3:last-of-type{
+    font-weight: 600;
+    font-size: 75px;
+    color: rgb(60, 130, 244);
+}
+
+.create_share ol li:first-of-type{
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.create_share ol li:last-of-type{
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.create_share > div > div:last-of-type{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.create_share .big_blue_button{
+    padding: 18px 21px;
+}
+
+.create_share .big_black_button{
+    padding: 18px 38px;
+    background-color: rgb(14, 14, 14);
+}
+
+.experts_agree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.experts_agree h3{
+    font-weight: 600;
+    font-size: 75px;
+}
+
+.audience{
+    padding-top: 188px;
+}
+
+.audience div{
+    width: 1920px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/audience.png);
+    font-weight: 600;
+    font-size: 70px;
+    text-align: center;
+}
+
+.get_start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 188px;
+}
+
+.get_start > h3:first-of-type{
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.get_start > h3:last-of-type{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 43px;
+}
+
+.get_start > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding-top: 26px;
+}   
+
+.get_start > div h3{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.get_start .white_text{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.get_start .gray_text{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.get_start .big_blue_button{
+    padding: 29px 113px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 942px;
+    padding-top: 183px;
+    padding-bottom: 96px;
+}
+
+footer > div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer > div:last-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+}
+
+footer a{
+    font-weight: 500;
+    font-size: 28px;
+}
